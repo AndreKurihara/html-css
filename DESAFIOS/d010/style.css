@@ -1,0 +1,102 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'android';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+body {
+    background-color: #84E1AD;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-family: 'android';
+    color: #1A5C38;
+}
+
+h3 {
+    font-family: 'android';
+    color: #1A5C38;
+    background-image: linear-gradient(to right, #90f1ba, white );
+}
+
+header {
+    background-image: linear-gradient(to top, #1A5C38, #3CD782);
+    width:auto;
+    height: 150px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    border-top: 15px solid #3CD782;
+}
+
+header > h1 {
+    margin: 0px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+nav {
+    background-color: #185333;
+    padding: 2px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    margin: auto;
+    background-color: white;
+    width: 800px;
+    padding: 20px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 5px 5px 10px black;
+    margin-bottom: 15px;
+}
+
+div {
+    border: 30px solid #185333;
+}
+
+aside {
+    background-color: #84E1AD;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 5px 5px 10px black;
+    padding: 10px;
+}
+
+aside#cabeça {
+    background-color: #3CD782;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 5px 10px 10px black;
+    font-weight: bolder;
+}
+
+strong {
+    color: #1A5C38;
+}
+
+footer {
+    background-color: #1A5C38;
+    width:auto;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    border: 1px solid #1A5C38;
+}

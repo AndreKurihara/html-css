@@ -1,0 +1,106 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@font-face {
+    font-family: 'America';
+    src: url('fonts/American Captain.otf') format('opentype'), url('fonts/American Captain.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #2D2C30;
+    font-family: 'Anek Devanagari', sans-serif;
+    margin: 0px;
+}
+
+header {
+    background-color: #394497;
+    margin: 5px;
+    border: 10px solid #1a191d;
+    border-radius: 5px;
+}
+
+header > h1{
+    margin: 0px;
+}
+
+h1 {
+    font-family:'America';
+    text-align: center;
+    color: #fff;
+    font-size: 85px;
+}
+
+nav {
+    background-color: #b31923;
+    text-align: center;
+    font-family: 'America';
+    font-size: 20px;
+    padding: 1px;
+    box-shadow: 2px 4px 11px 1px rgba(0, 0, 0, 0.644);
+}
+
+nav > a {
+    text-decoration: none;
+    color: #D5EFF3;
+    margin-right: 30px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    background-color: #F3F0D4;
+    padding-bottom: 1px;
+}
+
+h2 {
+   background-color: #cecbb6;
+   font-size: 30px;
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-top: 10px;
+   text-decoration: underline;
+   color: #44757c;
+}
+
+article > h3 {
+   color: #44757c; 
+}
+
+article.simples {
+    background-color: white;
+    text-align: justify;
+    font-weight: bold;
+    padding: 10px 10px 15px 10px;
+    margin: 10px 10px;
+    border-radius: 10px 40px;
+}
+
+picture {
+    width:;
+}
+
+aside {
+    text-align:right;
+    font-family: 'Caveat', cursive;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #B31923;
+    color:white;
+    text-align:center;
+    border-bottom:4px solid #B31923;
+    border-top: 4px solid #B31923;
+}
+
+footer > h3 {
+    margin: 0px;
+}
+
+img {
+    
+}
