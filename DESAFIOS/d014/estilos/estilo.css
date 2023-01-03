@@ -45,7 +45,8 @@
  }
 
  #redes {
-  text-align: right;  
+  text-align: right; 
+  padding-top: 25vh; 
  }
 
  #redes img{
